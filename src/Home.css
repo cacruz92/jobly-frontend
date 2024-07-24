@@ -1,0 +1,41 @@
+.home-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.home-div h1 {
+    margin-bottom: 20px;
+}
+
+.home-div h3 {
+    margin-bottom: 30px;
+}
+
+.home-div .btn {
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.custom-btn {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+}

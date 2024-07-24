@@ -1,0 +1,29 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 400px;  
+}
+
+.profile-card {
+    width: 100%;
+}
+
+.profile-card .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-card .form-group {
+    margin-bottom: 15px;
+}
+
+.profile-card .btn {
+    margin-top: 20px;
+}
